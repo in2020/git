@@ -10,3 +10,6 @@
 - git rm --cached : stage에서 삭제
 - git mv: mv -> git rm -> git add
 - git log -p : show history with diff
+- git remote -v : 모든 remote 저장소 출력
+- git remote : 현재 remote 저장소 출력
+- git remote add :  remote 저장소 추가
