@@ -13,3 +13,9 @@
 - git remote -v : 모든 remote 저장소 출력
 - git remote : 현재 remote 저장소 출력
 - git remote add :  remote 저장소 추가
+- git checkout -- : 변경사항 삭제
+- origin : remote 저장소 이름 일뿐... 
+- git remote rename, git remote rm
+- git tag tag_name sha1, git push tag_name git push --tags
+
+- 
