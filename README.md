@@ -17,5 +17,5 @@
 - origin : remote 저장소 이름 일뿐... 
 - git remote rename, git remote rm
 - git tag tag_name sha1, git push tag_name git push --tags
-
-- 
+- git checkout -b branch_name tag_name
+- git config --global alias.co checkout
