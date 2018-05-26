@@ -19,3 +19,4 @@
 - git tag tag_name sha1, git push tag_name git push --tags
 - git checkout -b branch_name tag_name
 - git config --global alias.co checkout
+- master 브랜치는 특별하지않다. 굳이 다른 이름으로 바꾸지 않는 것 뿐
