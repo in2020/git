@@ -23,4 +23,4 @@
 - git brach -b branch_name origin/master
 - git brach -u origin/master
 - 두개의 브랜치를 합치는 방법은 두가지 1.merge 2.rebase rebase가 히스토리가 깔끔하게 나타난다. git rebase master -> git merge branch1
-
+- rebase의 위험성 : push한  commit을 rebase하지마라
