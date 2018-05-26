@@ -20,3 +20,5 @@
 - git checkout -b branch_name tag_name
 - git config --global alias.co checkout
 - master 브랜치는 특별하지않다. 굳이 다른 이름으로 바꾸지 않는 것 뿐
+- git brach -b branch_name origin/master
+- git brach -u origin/master
