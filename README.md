@@ -26,3 +26,18 @@
 - rebase의 위험성 : push한  commit을 rebase하지마라
 - git merge --squash brach_name : 머지시 커밋을 하나의 커밋으로 합쳐 merge
 - git clean -fd : stage에 올라가지 않은 파일 
+
+## 기존 프로젝트를 원격 저장소에 업로드 하는 방법
+```
+git init 
+git remote add <remote name> <remote url>
+git fetch 
+git --set-upstream <remote name> <branch>
+git pull --allow-unrelated-histories
+git push
+```
+## tag 정렬
+```
+git tag -l --sort=v:refname
+git tag -l --sort=-v:refname #reverse
+```
