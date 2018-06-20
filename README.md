@@ -41,3 +41,7 @@ git push
 git tag -l --sort=v:refname
 git tag -l --sort=-v:refname #reverse
 ```
+## git alias
+```
+git config --global alias.tl 'git tag -l --sort=-v:refname'
+```
