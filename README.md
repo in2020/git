@@ -26,6 +26,7 @@
 - rebase의 위험성 : push한  commit을 rebase하지마라
 - git merge --squash brach_name : 머지시 커밋을 하나의 커밋으로 합쳐 merge
 - git clean -fd : stage에 올라가지 않은 파일 
+- git reset [option] HEAD^ : HEAD^ === HEAD^1 하나전 parent로 reset
 
 ## 기존 프로젝트를 원격 저장소에 업로드 하는 방법
 ```
