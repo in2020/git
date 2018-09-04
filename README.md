@@ -46,3 +46,10 @@ git tag -l --sort=-v:refname #reverse
 ```
 git config --global alias.tl 'git tag -l --sort=-v:refname'
 ```
+## 윈도우10 git symbolic link 적용 방법
+- [윈도우10 개발자 모드 설정](http://codedragon.tistory.com/3874)
+- [git 설치 시 enable symbolic link 옵션 선택](https://i.stack.imgur.com/rQF1w.png)
+- [git clone 옵션 추가 ]
+```
+git clone -c core.symlinks=true [url]
+```
